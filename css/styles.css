@@ -1,117 +1,147 @@
 body {
-  font-family: ;
+  font-family: "Roboto", sans-serif;
 }
+
+/*----------------HEADER-------------*/
 
 .header {
 }
-
 .header-navigation {
 }
 
-.header-logo-start {
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+}
+
+.header-logo-color {
   color: #4d5ae5;
   font-family: Raleway;
   font-size: 18px;
-  font-style: normal;
   font-weight: 800;
-  line-height: 21px;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  text-decoration: none;
-  display: flex;
-  width: 44px;
-  flex-direction: column;
-  justify-content: center;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
 }
 .header-logo {
-  color: var(--navyblue, #2e2f42);
+  color: #2e2f42;
   font-family: Raleway;
   font-size: 18px;
-  font-style: normal;
   font-weight: 800;
-  line-height: 21px;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  display: flex;
-  width: 71px;
-  flex-direction: column;
-  justify-content: center;
-  text-decoration: none;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
 }
 .header-menu-list {
+}
+.header-menu-item {
+}
+.header-menu-link {
   color: #2e2f42;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  text-decoration: none;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
+
 .header-adress {
-  color: var(--slate, #434455);
-  /* Body */
-  font-family: Roboto;
+  color: #434455;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-.h1 {
+
+/*----------------BUSINESS-------------*/
+
+.business {
+  background-color: #2e2f42;
+}
+
+.business-title {
   color: var(--white, #fff);
   text-align: center;
-  font-family: Roboto;
   font-size: 56px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 1.12px;
+  letter-spacing: 0.02em;
 }
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+
+.business-btn {
+  color: var(--white, #fff);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.business-btn: hover {
+
+}
+/*----------------SKILLS-------------*/
 
 .skills {
 }
-.skills-menu {
-  color: var(--navyblue, #2e2f42);
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .skills-menu-list {
-  color: var(--slate, #434455);
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
 }
+
+.skills-menu-item {
+}
+
+.skills-subtitle {
+  color: var(--navyblue, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.2em;
+}
+.skills-item-text {
+  color: var(--slate, #434455);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/*----------------DEVELOPMENT-------------*/
 
 .development {
   color: var(--navyblue, #2e2f42);
   text-align: center;
-  font-family: Roboto;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.72px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+.development-menu-list {
+}
+.development-menu-item {
 }
 
 .team {
   color: var(--navyblue, #2e2f42);
   text-align: center;
-  font-family: Roboto;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.72px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
@@ -126,15 +156,18 @@ body {
   letter-spacing: 0.4px;
 }
 
-.profession {
+.team-profession {
   color: var(--slate, #434455);
   text-align: center;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
+}
+
+.footer {
+  background-color: #2e2f42;
 }
 
 .footer-text {
