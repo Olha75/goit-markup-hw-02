@@ -17,7 +17,7 @@ body {
 }
 
 .header-logo-color {
-  color: #4d5ae5;
+  color: var(--iris, #4d5ae5);
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
@@ -25,30 +25,32 @@ body {
   letter-spacing: 0.03em;
 }
 .header-logo {
-  color: #2e2f42;
+  color: var(--navyblue, #2e2f42);
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .header-menu-list {
 }
 .header-menu-item {
 }
 .header-menu-link {
-  color: #2e2f42;
+  color: var(--navyblue, #2e2f42);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.header-adress {
-  color: #434455;
-  font-size: 16px;
+.header-address {
+  color: var(--slate, #434455);
+font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 /*----------------BUSINESS-------------*/
@@ -148,34 +150,41 @@ font-weight: 500;
 .team-name {
   color: var(--navyblue, #2e2f42);
   text-align: center;
-  font-family: Roboto;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .team-profession {
   color: var(--slate, #434455);
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .footer {
   background-color: #2e2f42;
 }
 
+.footer-logo {
+  color: var(--cloud, #f4f4fd);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer-logo-color {
+  color: var(--iris, #4d5ae5);
+}
+
 .footer-text {
   color: var(--cloud, #f4f4fd);
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
