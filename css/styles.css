@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-}
+  color: var(--slate, #434455);}
 
 /*----------------HEADER-------------*/
 
@@ -46,7 +46,6 @@ body {
 }
 
 .header-address {
-  color: var(--slate, #434455);
 font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -79,9 +78,7 @@ font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-.business-btn: hover {
-
-}
+.business-btn: hover {}
 /*----------------SKILLS-------------*/
 
 .skills {
@@ -115,8 +112,7 @@ font-weight: 500;
   letter-spacing: 0.2em;
 }
 .skills-item-text {
-  color: var(--slate, #434455);
-  font-size: 16px;
+    font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -157,8 +153,7 @@ font-weight: 500;
 }
 
 .team-profession {
-  color: var(--slate, #434455);
-  text-align: center;
+    text-align: center;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
