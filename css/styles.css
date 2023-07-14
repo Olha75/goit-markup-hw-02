@@ -27,7 +27,6 @@ body {
 }
 .header-logo-color {
   color: var(--navyblue, #2e2f42);
-
 }
 
 .header-menu-list {
@@ -63,9 +62,6 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
 
 .business-btn {
   color: var(--white, #fff);
@@ -81,20 +77,6 @@ font-weight: 500;
 /*----------------SKILLS-------------*/
 
 .skills {
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 .skills-menu-list {
@@ -159,6 +141,12 @@ font-weight: 500;
 }
 
 .porfolio-filtr-list {
+  color: var(--iris, #4d5ae5);
+  text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .portfolio-projects-list {
 }
@@ -169,7 +157,7 @@ font-weight: 500;
 }
 
 .footer-logo {
-  color:  var(--iris, #4d5ae5);
+  color: var(--iris, #4d5ae5);
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
@@ -178,7 +166,9 @@ font-weight: 500;
   text-transform: uppercase;
 }
 
-.footer-logo-color{color: var(--cloud, #F4F4FD);}
+.footer-logo-color {
+  color: var(--cloud, #f4f4fd);
+}
 
 .footer-text {
   color: var(--cloud, #f4f4fd);
