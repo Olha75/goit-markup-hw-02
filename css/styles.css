@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--slate, #434455);}
+  color: var(--slate, #434455);
+}
 
 /*----------------HEADER-------------*/
 
@@ -15,17 +16,8 @@ body {
 .list {
   list-style-type: none;
 }
-
-.header-logo-color {
-  color: var(--iris, #4d5ae5);
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-}
 .header-logo {
-  color: var(--navyblue, #2e2f42);
+  color: var(--iris, #4d5ae5);
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
@@ -33,6 +25,11 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.header-logo-color {
+  color: var(--navyblue, #2e2f42);
+
+}
+
 .header-menu-list {
 }
 .header-menu-item {
@@ -46,10 +43,10 @@ body {
 }
 
 .header-address {
-font-size: 16px;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-decoration: none;
+  font-style: normal;
 }
 
 /*----------------BUSINESS-------------*/
@@ -78,7 +75,9 @@ font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-.business-btn: hover {}
+.business-btn: hover {
+
+}
 /*----------------SKILLS-------------*/
 
 .skills {
@@ -112,7 +111,7 @@ font-weight: 500;
   letter-spacing: 0.2em;
 }
 .skills-item-text {
-    font-size: 16px;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -153,21 +152,24 @@ font-weight: 500;
 }
 
 .team-profession {
-    text-align: center;
+  text-align: center;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.portfolio-img{
-
+.porfolio-filtr-list {
+}
+.portfolio-projects-list {
+}
+.portfolio-img {
 }
 .footer {
   background-color: #2e2f42;
 }
 
 .footer-logo {
-  color: var(--cloud, #f4f4fd);
+  color:  var(--iris, #4d5ae5);
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
@@ -176,9 +178,7 @@ font-weight: 500;
   text-transform: uppercase;
 }
 
-.footer-logo-color {
-  color: var(--iris, #4d5ae5);
-}
+.footer-logo-color{color: var(--cloud, #F4F4FD);}
 
 .footer-text {
   color: var(--cloud, #f4f4fd);
