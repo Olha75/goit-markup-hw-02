@@ -1,21 +1,20 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--slate, #434455);
+  background-color: #fcfcfc;
 }
-
-/*----------------HEADER-------------*/
-
-.header {
-}
-.header-navigation {
-}
-
 .link {
   text-decoration: none;
 }
 .list {
   list-style-type: none;
+  /*----------------HEADER-------------*/
 }
+.header {
+}
+.header-navigation {
+}
+
 .header-logo {
   color: var(--iris, #4d5ae5);
   font-family: Raleway;
@@ -40,18 +39,27 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
-.header-address {
+.header-menu-link:active {
+  color: var(--ocean, #404bbf);
+  text-decoration: underline;
+}
+.header-address-link {
+  color: var(--slate, #434455);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
 }
-
+.header-address-link:active {
+  color: var(--ocean, #404bbf);
+}
 /*----------------BUSINESS-------------*/
 
 .business {
   background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
+  flex-shrink: 0;
 }
 
 .business-title {
@@ -71,8 +79,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  width: 169px;
+  height: 56px;
+  background: var(--iris, #4d5ae5);
 }
-
+.business-btn:active {
+  background: var(--ocean, #404bbf);
 }
 /*----------------SKILLS-------------*/
 
@@ -139,23 +151,47 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.porfolio-filtr-list{}
 
- .portfolio-btn {
-  color: var(--iris, #4d5ae5);
+/*------------------PORTFOLIO-----------------*/
+
+.porfolio-filtr-list {
+}
+
+.portfolio-btn {
+  background: var(--cloud, #F4F4FD);
   text-align: center;
-    font-size: 16px;
-    font-weight: 500;
+  font-size: 16px;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+}
+.portfolio-btn:active{background: var(--ocean, #404bbf);
+  color: var(--white, #FFF);
 }
 .portfolio-projects-list {
 }
 .portfolio-img {
 }
+.portfolio-subtitle {
+  color: var(--navyblue, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;}
+
+/*-----------FOOTER------------*/
+
 .footer {
   background-color: #2e2f42;
+  width: 1440px;
+  height: 312px;
+  flex-shrink: 0;
 }
 
 .footer-logo {
