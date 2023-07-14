@@ -1,13 +1,27 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--slate, #434455);
-  background-color: #fcfcfc;
+  background-color: #FFFFFF;
 }
 .link {
   text-decoration: none;
 }
 .list {
   list-style-type: none;
+:root {
+  --iris-color:#4D5AE5;
+  --ocean-color:#404BBF;
+  --navyblue-color:#2E2F42;
+  --green-color:#31D0AA;
+  --slate-color:#434455;
+  --lightslate-color:#8E8F99;
+  --cornflower-color:#E7E9FC;
+  --cloud-color:#F4F4FD;
+  --navyblue-modal-color:#2E2F42;
+  --grey-color:#2E2F42;
+  --white-color:#FFFFFF;
+  --dairy-color:#FCFCFC;
+}
   /*----------------HEADER-------------*/
 }
 .header {
@@ -79,8 +93,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  width: 169px;
-  height: 56px;
   background: var(--iris, #4d5ae5);
 }
 .business-btn:active {
@@ -189,8 +201,6 @@ body {
 
 .footer {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 312px;
   flex-shrink: 0;
 }
 
