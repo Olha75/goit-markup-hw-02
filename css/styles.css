@@ -71,9 +71,7 @@ body {
 
 .business {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
-  flex-shrink: 0;
+  
 }
 
 .business-title {
