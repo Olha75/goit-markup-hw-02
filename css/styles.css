@@ -70,8 +70,8 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
-.business-btn: hover {
 
 }
 /*----------------SKILLS-------------*/
@@ -139,14 +139,16 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.porfolio-filtr-list{}
 
-.porfolio-filtr-list {
+ .portfolio-btn {
   color: var(--iris, #4d5ae5);
   text-align: center;
     font-size: 16px;
     font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .portfolio-projects-list {
 }
