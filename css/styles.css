@@ -169,7 +169,8 @@ address {
 }
 .team-list-menu {background-color: #ffffff;
 }
-.team-img 
+.team-img {}
+
 .team-name {
   color: var(--navyblue, #2e2f42);
   text-align: center;
@@ -247,7 +248,6 @@ address {
 }
 
 .footer-text {
-  color: var(--cloud, #f4f4fd);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
