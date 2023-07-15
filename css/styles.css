@@ -55,7 +55,6 @@ address {
 .header-address-menu {
 }
 
-.header-menu-item:hover
 .header-menu-link {
   color: var(--navy-blue, #2e2f42);
   font-size: 16px;
