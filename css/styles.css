@@ -153,7 +153,9 @@ address {
 }
 .development-menu-item {
 }
-.team{background-color:#F4F4FD ;}
+.team 
+{ background-color:#F4F4FD ;}
+
 .team-title {
   color: var(--navyblue, #2e2f42);
   text-align: center;
@@ -223,7 +225,7 @@ address {
   letter-spacing: 0.02em;
 }
 .portfolio-text {
-  color:var(--slate)
+  color: var(--slate, #434455);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
