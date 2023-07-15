@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--slate, #434455);
+  color: #434455;
   background-color: #ffffff;
 }
 address {
@@ -56,7 +56,6 @@ address {
 }
 
 .header-menu-link {
-  color: var(--navy-blue, #2e2f42);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
