@@ -3,7 +3,9 @@ body {
   color: var(--slate, #434455);
   background-color: #ffffff;
 }
-
+address {
+  font-style: normal;
+}
 .link {
   text-decoration: none;
 }
@@ -13,18 +15,18 @@ body {
 }
 
 :root {
-  --iris-color: #4d5ae5;
-  --ocean-color: #404bbf;
-  --navyblue-color: #2e2f42;
-  --green-color: #31d0aa;
-  --slate-color: #434455;
-  --lightslate-color: #8e8f99;
-  --cornflower-color: #e7e9fc;
-  --cloud-color: #f4f4fd;
-  --navyblue-modal-color: #2e2f42;
-  --grey-color: #2e2f42;
-  --white-color: #ffffff;
-  --dairy-color: #fcfcfc;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --corn-flower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: #2e2f42;
+  --grey: #2e2f42;
+  --white: #ffffff;
+  --dairy: #fcfcfc;
 }
 /*----------------HEADER-------------*/
 
@@ -125,7 +127,7 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
 }
 .skills-item-text {
   font-size: 16px;
@@ -157,6 +159,11 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  background-color: #f4f4fd;
+}
+.team-list {
+}
+.team-list-menu {
 }
 
 .team-name {
@@ -222,7 +229,7 @@ body {
 
 .footer-logo {
   color: var(--iris, #4d5ae5);
-  font-family: Raleway. sans-serif;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
