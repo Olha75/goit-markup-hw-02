@@ -15,18 +15,20 @@ address {
 }
 
 :root {
-  --iris: #4d5ae5;
-  --ocean: #404bbf;
-  --navy-blue: #2e2f42;
-  --green: #31d0aa;
-  --slate: #434455;
-  --light-slate: #8e8f99;
-  --corn-flower: #e7e9fc;
-  --cloud: #f4f4fd;
-  --navy-blue-modal: #2e2f42;
-  --grey: #2e2f42;
-  --white: #ffffff;
-  --dairy: #fcfcfc;
+  --font-family: "Roboto", sans-serif;
+  --font-family: "Raleway", sans-serif;
+  --iris:#4d5ae5;
+  --ocean:#404bbf;
+  --navy-blue:#2e2f42;
+  --green:#31d0aa;
+  --slate:#434455;
+  --light-slate:#8e8f99;
+  --corn-flower:#e7e9fc;
+  --cloud:#f4f4fd;
+  --navy-blue-modal:#2e2f42;
+  --grey:#2e2f42;
+  --white:#ffffff;
+  --dairy:#fcfcfc;
 }
 /*----------------HEADER-------------*/
 
@@ -53,17 +55,17 @@ address {
 .header-address-menu {
 }
 
-.header-menu-item {
-}
+.header-menu-item:hover
 .header-menu-link {
-  color: var(--navyblue, #2e2f42);
+  color: var(--navy-blue, #2e2f42);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.header-menu-link:hover .header-menu-link:focus {
-  color: var(--ocean, #404bbf);
+.header-menu-link:hover
+.header-menu-link:focus {
+  color: var(--ocean,#404bbf);
   text-decoration: underline;
 }
 .header-address {
@@ -98,7 +100,6 @@ address {
 
 .business-btn {
   color: var(--white, #ffffff);
-  font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -110,6 +111,7 @@ address {
 
 .business-btn:hover .business-btn:focus {
   background: var(--ocean, #404bbf);
+  font-family: "Roboto", sans-serif;
 }
 /*----------------SKILLS--------------*/
 
@@ -150,7 +152,7 @@ address {
 }
 .development-menu-item {
 }
-
+.team-background{background-color: #f4f4fd;}
 .team {
   color: var(--navyblue, #2e2f42);
   text-align: center;
@@ -159,13 +161,14 @@ address {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  background-color: #f4f4fd;
-}
-.team-list {
-}
-.team-list-menu {
+  
 }
 
+.team-list {
+}
+.team-list-menu {background-color: #ffffff;
+}
+.team-img 
 .team-name {
   color: var(--navyblue, #2e2f42);
   text-align: center;
