@@ -21,7 +21,7 @@ address {
   --ocean:#404bbf;
   --navy-blue:#2e2f42;
   --green:#31d0aa;
-  --slate:#434455;
+  --slate: #434455
   --light-slate:#8e8f99;
   --corn-flower:#e7e9fc;
   --cloud:#f4f4fd;
@@ -62,7 +62,7 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.header-menu-link:hover
+.header-menu-link:hover,
 .header-menu-link:focus {
   color: var(--ocean,#404bbf);
   text-decoration: underline;
@@ -78,7 +78,8 @@ address {
   letter-spacing: 0.02em;
   font-style: normal;
 }
-.header-address-link:hover .header-address-link:focus {
+.header-address-link:hover,
+.header-address-link:focus {
   color: var(--ocean, #404bbf);
 }
 /*----------------BUSINESS-------------*/
@@ -105,10 +106,11 @@ address {
   letter-spacing: 0.04em;
   cursor: pointer;
   background: var(--iris, #4d5ae5);
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
 }
 
-.business-btn:hover .business-btn:focus {
+.business-btn:hover,
+.business-btn:focus {
   background: var(--ocean, #404bbf);
   font-family: "Roboto", sans-serif;
 }
@@ -190,7 +192,7 @@ address {
 }
 
 .portfolio-btn {
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   color: #4d5ae5;
   background: var(--cloud, #f4f4fd);
   text-align: center;
@@ -200,7 +202,8 @@ address {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.portfolio-btn:hover .portfolio-btn:focus {
+.portfolio-btn:hover,
+.portfolio-btn:focus {
   background-color: var(--ocean, #404bbf);
   color: var(--white, #ffffff);
 }
