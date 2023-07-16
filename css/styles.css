@@ -66,6 +66,7 @@ address {
 .header-menu-link:focus {
   color: var(--ocean, #404bbf);
   text-decoration: underline;
+  text-decoration: none;
 }
 .header-address {
   font-style: normal;
@@ -77,10 +78,11 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
-}
+  }
 .header-address-link:hover,
 .header-address-link:focus {
   color: var(--ocean, #404bbf);
+  text-decoration: none;
 }
 /*----------------BUSINESS-------------*/
 
@@ -95,7 +97,6 @@ address {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  background-color: #f4f4fd;
 }
 
 .business-btn {
@@ -113,6 +114,7 @@ address {
 .business-btn:focus {
   background: var(--ocean, #404bbf);
   font-family: "Roboto", sans-serif;
+  text-decoration: none;
 }
 /*----------------SKILLS--------------*/
 
@@ -211,6 +213,7 @@ address {
 .portfolio-btn:focus {
   background-color: var(--ocean, #404bbf);
   color: var(--white, #ffffff);
+  text-decoration: none;
 }
 
 .portfolio-projects-list {
